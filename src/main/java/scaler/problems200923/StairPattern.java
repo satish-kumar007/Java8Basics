@@ -8,7 +8,7 @@ public class StairPattern {
         int numN = scanner.nextInt();
         for(int i=1;i<=numN;i++){
             for(int j=1;j<=i;j++){
-                if(j == numN+1-i){
+                if(j == j+1-i){
                     System.out.print(j);
                 }else
                     System.out.print(j+" ");
