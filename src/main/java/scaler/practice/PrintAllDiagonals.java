@@ -11,7 +11,7 @@ public class PrintAllDiagonals {
         for(int j=0;j<m;j++){
             int r = 0;
             int c = j;
-            while(r < n && c>=0){
+            while(r < n && c >=0){
                 System.out.print(arr[r][c]+" ");
                 r++;
                 c--;
